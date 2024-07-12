@@ -51,16 +51,24 @@ a {
     width: auto;
 }
 
+#top {
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+}
+
+.title {
+    margin-left: 8rem;
+    margin-top: 7.5rem;
+}
+
 h1 {
     color: rgb(236, 236, 236);
     font-size: 6rem;
-    padding: 5rem;
-    padding-top: 7rem;
+    padding-bottom: 5rem;
+    padding-right: 2rem;
     text-shadow: 0.3rem 0.3rem 0.7rem rgb(0, 0, 0);
-}
-
-.btn-container {
-    padding-left: 5rem;
+    white-space: nowrap;
 }
 
 button {
@@ -82,6 +90,35 @@ button {
 button:hover {
     background: linear-gradient(135deg, rgba(16, 132, 247, .3), rgba(255, 67, 217, 0.3));
     border: 0.4rem solid rgb(236, 236, 236);
+}
+
+.dummy-code {
+    color: rgb(236,236,236);
+    background-color: rgb(55, 55, 55);
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 0, 0.8);
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 6rem;
+    margin-right: 8rem;
+    padding: 2rem;
+    text-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.8);
+}
+
+.code {
+    white-space: nowrap;
+}
+
+.code-purple {
+    color:rgb(230, 0, 255)
+}
+
+.code-yellow {
+    color: rgb(255, 221, 86);
+}
+
+.code-blue {
+    color: rgb(0, 128, 255);
 }
 
 #footer {
