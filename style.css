@@ -11,6 +11,8 @@ body {
     background-color: rgb(71, 71, 71);
 }
 
+/* HEADER */
+
 .header {
     align-items: center;
     background-color: rgb(41, 41, 41);
@@ -50,6 +52,8 @@ a {
     height: 5rem;
     width: auto;
 }
+
+/* TOP */
 
 #top {
     display: flex;
@@ -121,6 +125,10 @@ button:hover {
     color: rgb(0, 128, 255);
 }
 
-#footer {
-    height: 5000px;
-}
+/* ABOUT */
+
+/* TEAM */
+
+/* CONTACT */
+
+/* FOOTER */
