@@ -1,2 +1,2 @@
 # dev-den-website
-Offical GitHub Repository of Queen's Dev Den
+Official GitHub Repository of Queen's Dev Den
