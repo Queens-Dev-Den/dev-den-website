@@ -1,9 +1,14 @@
 #about {
+    background-color: rgb(55, 55, 55);
     margin-top: 10rem;
+    padding: 10rem;
 }
 
 .about-text-container {
-
+    background-color: rgb(71, 71, 71);
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 0, 0.8);
+    padding: 4rem;
 }
 
 .about-text {
