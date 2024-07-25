@@ -2,6 +2,7 @@ import "./About.css";
 export default function About() {
     return (
         <section id="about">
+            <h2>What is the Dev Den?</h2>
             <div className="about-text-container">
                 <p className="about-text">
                     The Dev Den is a place for computing students to hangout and work on projects

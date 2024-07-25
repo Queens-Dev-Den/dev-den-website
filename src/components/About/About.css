@@ -13,5 +13,6 @@
 
 .about-text {
     color: rgb(236, 236, 236);
+    font-size: 1.2rem;
     text-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.8);
 }
