@@ -44,5 +44,6 @@ h2 {
 #cartoon-dev-den {
     height: 25rem;
     width: auto;
-    filter: drop-shadow(0.3rem 0.3rem 0.4rem)
+    filter: drop-shadow(0.3rem 0.3rem 0.4rem);
+    z-index: 0;
 }
