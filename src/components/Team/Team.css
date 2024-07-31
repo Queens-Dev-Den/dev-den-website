@@ -1,0 +1,8 @@
+#team {
+    padding: 8rem;
+}
+
+.team-header {
+    display: flex;
+    justify-content: center;
+}
