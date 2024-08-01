@@ -9,12 +9,14 @@ export default function Team() {
             <div className="team-card-section">
                 {TeamData.map((d) => (
                     <div className="team-card">
-                        <div className="team-card-img">
-                            <img src={d.img} alt="Team Member"/>
-                        </div>
-                        <div className="team-card-text">
-                            <p className="team-member-name">{d.name}</p>
-                            <p className="team-member-position">{d.position}</p>
+                        <div>
+                            <div className="team-card-img">
+                                <img src={d.img} alt="Team Member"/>
+                            </div>
+                            <div className="team-card-text">
+                                <p className="team-member-name">{d.name}</p>
+                                <p className="team-member-position">{d.position}</p>
+                            </div>
                         </div>
                     </div>
                 ))}
