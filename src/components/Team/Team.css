@@ -5,7 +5,7 @@
 .team-header {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .team-card {
@@ -14,13 +14,13 @@
     display: flex;
     justify-content: center;
     padding: 2rem;
-    box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 0, 0.8);
+    box-shadow: 0.2rem 0.2rem 0.6rem rgba(0, 0, 0, 0.8);
 }
 
 .team-card-img img {
     border-radius: 0.8rem;
-    height: 20rem;
-    width: 20rem;
+    height: 18rem;
+    width: 18rem;
     box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.8);
 }
 
@@ -44,4 +44,9 @@
 
 .team-member-position {
     color: rgb(255, 67, 217);
+}
+
+.slick-slide > div {
+    margin: 1rem 2rem;
+    width: 18rem;
 }
