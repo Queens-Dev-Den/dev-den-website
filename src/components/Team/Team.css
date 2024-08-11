@@ -1,0 +1,52 @@
+#team {
+    padding: 8rem;
+}
+
+.team-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.team-card {
+    background-color: rgb(105, 105, 105);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 0.2rem 0.2rem 0.6rem rgba(0, 0, 0, 0.8);
+}
+
+.team-card-img img {
+    border-radius: 0.8rem;
+    height: 18rem;
+    width: 18rem;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.8);
+}
+
+.team-card-text {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.8);
+    background-color: rgb(68, 68, 68);
+    padding: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.8);
+}
+
+.team-member-name {
+    margin-bottom: 1rem;
+    color: rgb(16, 132, 247);
+    
+}
+
+.team-member-position {
+    color: rgb(255, 67, 217);
+}
+
+.slick-slide > div {
+    margin: 1rem 2rem;
+    width: 18rem;
+}

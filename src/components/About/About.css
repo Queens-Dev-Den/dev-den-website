@@ -1,0 +1,42 @@
+#about {
+    background-color: rgb(55, 55, 55);
+    margin-top: 10rem;
+    padding: 8rem;
+}
+
+.about-text-container {
+    background-color: rgb(71, 71, 71);
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 0, 0.8);
+    padding: 3rem;
+}
+
+.about-text {
+    color: rgb(236, 236, 236);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.8);
+}
+
+.about-text-2 {
+    margin-top: 3rem;
+}
+
+.about-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+#cartoon-dev-den {
+    height: 25rem;
+    width: auto;
+    filter: drop-shadow(0.3rem 0.3rem 0.4rem);
+    z-index: 0;
+}
